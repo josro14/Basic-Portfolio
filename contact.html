@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html>
-    <title>Portfolio</title>
+    <title>Contact</title>
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
-        <header>
-            <h2>Josh Roberts</h2>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-        </header>
-    <body>
-        <div>
-            <h2>Contact</h2>
-                <h3>Name</h3>
-                <h3>Email</h3>
-                <h3>Message</h3>
-        </div>
-        <div class="sidebar">
-            <h3>Connect With Me</h3>
-                <a href="https://github.com/josro14" target="_blank">
-                    <img src="assets/images/github_square.png" alt="github" height="134" width="134">
-                </a>
-                <a href="https://www.linkedin.com/in/joshua-roberts-906627153/" target="_blank">
-                    <img src="assets/images/linkedin_square.png" alt="linkedin" height="134" width="134">
-                </a>
-                <a href="https://stackoverflow.com/users/9165798/josh-roberts?tab=profile" target="_blank">
-                    <img src="assets/images/stackoverflow_square.png" alt="stackoverflow" height="122" width="122">
-                </a>
-        </div>
-    </body>
+        <body>
+            <header>
+                <h2 class="name">Josh Roberts</h2>
+                    <div class= "links">
+                        <a class="bout" href="index.html">About</a>
+                        <a class="folio" href="portfolio.html">Portfolio</a>
+                        <a class="tact" href="contact.html">Contact</a>
+                    </div>
+            </header>
+        <div class="about">
+            <h2 class="titulo">Contact</h2>
+            <form action="/action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="John Smith">
+            
+                <label for="lname">Email</label>
+                <input type="text" id="lname" name="lastname" placeholder="someone@gmail.com">
+            
+                <label for="message">Message</label>
+                <input type="text" id="country" name="country">
+                
+                <input type="submit" value="Submit">
+              </form>
+        </div>   
+            <div class="sidebar">
+                <h3>Connect With Me</h3>
+                    <a href="https://github.com/josro14" target="_blank">
+                    <img src="assets/images/github_square.png" alt="github" height="70" width="70">
+                    </a>
+                    <a href="https://www.linkedin.com/in/joshua-roberts-906627153/" target="_blank">
+                        <img src="assets/images/linkedin_square.png" alt="linkedin" height="70" width="70">
+                    </a>
+                    <a href="https://stackoverflow.com/users/9165798/josh-roberts?tab=profile" target="_blank">
+                        <img src="assets/images/stackoverflow_square.png" alt="stackoverflow" height="70" width="70">
+                    </a>
+            </div>
+        </body>
     <footer>
         <p>© Copywrite 2018 Josh Roberts</p>
     </footer>
